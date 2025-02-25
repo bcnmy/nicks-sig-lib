@@ -1,4 +1,11 @@
 {
+	"name": "nicks-sig-validation-lib",
+	"description": "Nicks method Signature Validation Library",
+	"version": "0.0.1",
+	"author": {
+		"name": "Biconomy",
+		"url": "https://github.com/bcnmy"
+	},
 	"dependencies": {
 		"solady": "github:vectorized/solady"
 	}
