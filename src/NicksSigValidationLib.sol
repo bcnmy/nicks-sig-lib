@@ -6,7 +6,7 @@ import { ECDSA } from "solady/utils/ECDSA.sol";
 // TODO: remove this
 import "forge-std/console2.sol";
 
-contract NicksSigValidationLib {
+library NicksSigValidationLib {
 
     /// @notice Error thrown when an invalid nicks method data is detected
     error InvalidNicksMethodData(bytes32 authHash, bytes32 initDataHash, bytes signature);
